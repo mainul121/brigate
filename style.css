@@ -58,9 +58,11 @@ ul.mainMenu {
   list-style: none;
 }
 ul.mainMenu li {
-  display: inline-block;
+  display: block;
   padding: 7px;
   position: relative;
+  float: left;
+  margin-right: 20px;
 }
 .menuBar {
   display: table;
@@ -69,9 +71,9 @@ ul.mainMenu li {
 ul.mainMenu li a {
   text-decoration: none;
   color: rgb(0, 0, 0);
-  font-size: 19px;
-  font-family: monospace;
-  font-weight: 600;
+  font-size: 15px;
+  font-family: oswald;
+  font-weight: 500;
   transition: all 0.3s ease 0s;
 }
 ul.mainMenu {
